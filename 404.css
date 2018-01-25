@@ -1,0 +1,168 @@
+.cm-error-page-main .cm-main-error-page-content {
+    text-align: center;
+}
+
+.cm-error-page-main .cm-main-error-page-content .cell-wrapper.layout-widget-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cm-error-page-main .cm-main-error-page-content p {
+    text-align: left;
+    margin-top: 19px;
+    font-family: HelveticaNeueW01-45Light;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 39px;
+    color: #184a56;
+}
+
+.cm-error-page-main .cm-main-error-page-content .image-404 {
+    width: 318px;
+    margin-left: -20px;
+    margin: 0 auto;
+}
+
+.cm-error-page-main .cm-main-error-page-content h2 {
+    margin-top: 62px;
+    text-transform: uppercase;
+    color: #3eb8ea;
+    font-size: 66px;
+    font-family: HelveticaNeueW01-45Light;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.cm-error-page-main .cm-main-error-page-content a {
+    display: block;
+    text-align: left;
+    margin-top: 37px;
+    outline: 0;
+    width: 198px;
+    height: 56px;
+    letter-spacing: .8px;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 28px;
+    font-family: HelveticaNeueW01-45Light;
+    cursor: pointer;
+    border: 2px solid #3eb8ea;
+    background-color: #fff;
+    color: #3eb8ea;
+    box-sizing: border-box;
+    transition-property: color,background-color;
+    transition-duration: .2s;
+    text-decoration: none;
+}
+
+.cm-error-page-main .cm-main-error-page-content a:hover {
+    background-color: #3eb8ea;
+    color: #fff;
+}
+
+.cm-error-page-main .image-404 .cls-1 {
+    fill: #3ba6cc;
+}
+
+.cm-error-page-main .image-404 .cls-2 {
+    fill: #3eb8eb;
+}
+
+.cm-error-page-main .image-404 .cls-3 {
+    fill: #c3d4d8;
+}
+
+.cm-error-page-main .image-404 .cls-2 {
+    fill: #3eb8eb;
+}
+
+.cm-error-page-main .image-404 .cls-4 {
+    fill: #e1ebef;
+}
+
+.cm-error-page-main .image-404 .cls-5 {
+    fill: #37b7ea;
+}
+
+.cm-error-page-main .image-404 .cls-6 {
+    fill: #a2b7bc;
+}
+
+.cm-error-page-main .image-404 .cls-7 {
+    fill: #a9a9a9;
+}
+
+.cm-error-page-main .image-404 .cls-8 {
+    fill: #9c9b9b;
+}
+
+.cm-error-page-main .image-404 .cls-9 {
+    fill: #f197be;
+}
+
+.cm-error-page-main .image-404 .cls-10 {
+    fill: #565656;
+}
+
+.cm-error-page-main .image-404 .cls-11 {
+    fill: #fff;
+}
+.cm-error-page-main .image-404 .cls-12 {
+    fill: #e9eff2;
+}
+
+.cm-error-page-main .image-404 .error-code {
+    fill: #fff;
+    font-family: HelveticaNeueW01-45Light;
+    font-size: 80px;
+}
+
+.cm-error-page-main .error-code {
+    margin-top: 30px;
+    color: #929292;
+    line-height: 35px;
+}
+
+@media(max-width: 767px) {
+
+    .cm-error-page-main .cm-main-error-page-content h2 {
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cm-error-page-main .cm-main-error-page-content p {
+        font-size: 18px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .cm-error-page-main .cm-main-error-page-content .cell-wrapper.layout-widget-wrapper {
+        display: block !Important;
+    }
+
+    .cm-error-page-main .cm-main-error-page-content a {
+        margin: 37px auto 0;
+    }
+
+}
+
+@media(max-width: 350px) {
+
+    .cm-error-page-main .cm-main-error-page-content .image-404 {
+        width: auto;
+    }
+
+    .cm-error-page-main .cm-main-error-page-content p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+}
